@@ -1,0 +1,29 @@
+# indexing = string indexing allow us to accessing elements of a squence using [] (indexing operators)
+#             [start : end : step]
+
+creadit_number = "1234-5678-9012-3456"
+print(creadit_number[0])
+
+creadit_number = "1234-5678-9012-3456"
+print(creadit_number[:4])
+
+creadit_number = "1234-5678-9012-3456"
+print(creadit_number[5:9])
+
+creadit_number = "1234-5678-9012-3456"
+print(creadit_number[5:9])
+
+creadit_number = "1234-5678-9012-3456"
+print(creadit_number[-1])
+
+creadit_number = "1234-5678-9012-3456"
+print(creadit_number[::2])
+
+creadit_number = "1234-5678-9012-3456"
+
+last_digit = creadit_number[-4]
+print(f"XXXX-XXXX-XXXX-{last_digit}")
+
+# reversing the creadit_nmuber 
+reversed_number = creadit_number[::-1]
+print(reversed_number) 
